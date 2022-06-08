@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		3F880B362822A5A300F3089D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F880B352822A5A300F3089D /* AppDelegate.swift */; };
 		3F880B382822A5A300F3089D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F880B372822A5A300F3089D /* SceneDelegate.swift */; };
-		3F880B3A2822A5A300F3089D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F880B392822A5A300F3089D /* ViewController.swift */; };
 		3F880B3D2822A5A300F3089D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F880B3B2822A5A300F3089D /* Main.storyboard */; };
 		3F880B3F2822A5A400F3089D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F880B3E2822A5A400F3089D /* Assets.xcassets */; };
 		3F880B422822A5A400F3089D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F880B402822A5A400F3089D /* LaunchScreen.storyboard */; };
 		3F880B4D2822A5A400F3089D /* MAD_MeditationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F880B4C2822A5A400F3089D /* MAD_MeditationTests.swift */; };
 		3F880B572822A5A400F3089D /* MAD_MeditationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F880B562822A5A400F3089D /* MAD_MeditationUITests.swift */; };
 		3F880B592822A5A400F3089D /* MAD_MeditationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F880B582822A5A400F3089D /* MAD_MeditationUITestsLaunchTests.swift */; };
+		3F880B682822AB5200F3089D /* Font in Resources */ = {isa = PBXBuildFile; fileRef = 3F880B672822AB5200F3089D /* Font */; };
+		3F880B6A2822ACD100F3089D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F880B392822A5A300F3089D /* SignInViewController.swift */; };
+		3F880B6E2822AE8500F3089D /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 3F880B6D2822AE8500F3089D /* SwiftyJSON */; };
+		3F880B712822AE9700F3089D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3F880B702822AE9700F3089D /* Alamofire */; };
+		3FCFF32A2847B0AC00754D9E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFF3292847B0AC00754D9E /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		3F880B322822A5A300F3089D /* MAD Meditation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAD Meditation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F880B352822A5A300F3089D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F880B372822A5A300F3089D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F880B392822A5A300F3089D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F880B392822A5A300F3089D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		3F880B3C2822A5A300F3089D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F880B3E2822A5A400F3089D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F880B412822A5A400F3089D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		3F880B522822A5A400F3089D /* MAD MeditationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAD MeditationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F880B562822A5A400F3089D /* MAD_MeditationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAD_MeditationUITests.swift; sourceTree = "<group>"; };
 		3F880B582822A5A400F3089D /* MAD_MeditationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAD_MeditationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F880B672822AB5200F3089D /* Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Font; sourceTree = "<group>"; };
+		3FCFF3292847B0AC00754D9E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F880B6E2822AE8500F3089D /* SwiftyJSON in Frameworks */,
+				3F880B712822AE9700F3089D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +107,9 @@
 		3F880B342822A5A300F3089D /* MAD Meditation */ = {
 			isa = PBXGroup;
 			children = (
-				3F880B352822A5A300F3089D /* AppDelegate.swift */,
-				3F880B372822A5A300F3089D /* SceneDelegate.swift */,
-				3F880B392822A5A300F3089D /* ViewController.swift */,
-				3F880B3B2822A5A300F3089D /* Main.storyboard */,
-				3F880B3E2822A5A400F3089D /* Assets.xcassets */,
-				3F880B402822A5A400F3089D /* LaunchScreen.storyboard */,
+				3F880B672822AB5200F3089D /* Font */,
+				3F880B692822ACA600F3089D /* Common */,
+				3F880B6B2822ACD500F3089D /* Main */,
 				3F880B432822A5A400F3089D /* Info.plist */,
 			);
 			path = "MAD Meditation";
@@ -127,6 +132,27 @@
 			path = "MAD MeditationUITests";
 			sourceTree = "<group>";
 		};
+		3F880B692822ACA600F3089D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3F880B402822A5A400F3089D /* LaunchScreen.storyboard */,
+				3F880B3E2822A5A400F3089D /* Assets.xcassets */,
+				3F880B372822A5A300F3089D /* SceneDelegate.swift */,
+				3F880B352822A5A300F3089D /* AppDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3F880B6B2822ACD500F3089D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3F880B3B2822A5A300F3089D /* Main.storyboard */,
+				3FCFF3292847B0AC00754D9E /* MainViewController.swift */,
+				3F880B392822A5A300F3089D /* SignInViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +169,10 @@
 			dependencies = (
 			);
 			name = "MAD Meditation";
+			packageProductDependencies = (
+				3F880B6D2822AE8500F3089D /* SwiftyJSON */,
+				3F880B702822AE9700F3089D /* Alamofire */,
+			);
 			productName = "MAD Meditation";
 			productReference = 3F880B322822A5A300F3089D /* MAD Meditation.app */;
 			productType = "com.apple.product-type.application";
@@ -190,6 +220,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
@@ -215,6 +248,10 @@
 				Base,
 			);
 			mainGroup = 3F880B292822A5A300F3089D;
+			packageReferences = (
+				3F880B6C2822AE8500F3089D /* XCRemoteSwiftPackageReference "swiftyJSON" */,
+				3F880B6F2822AE9700F3089D /* XCRemoteSwiftPackageReference "alamofire" */,
+			);
 			productRefGroup = 3F880B332822A5A300F3089D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -248,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F880B682822AB5200F3089D /* Font in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F880B3A2822A5A300F3089D /* ViewController.swift in Sources */,
+				3FCFF32A2847B0AC00754D9E /* MainViewController.swift in Sources */,
 				3F880B362822A5A300F3089D /* AppDelegate.swift in Sources */,
 				3F880B382822A5A300F3089D /* SceneDelegate.swift in Sources */,
 			);
@@ -276,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F880B6A2822ACD100F3089D /* SignInViewController.swift in Sources */,
 				3F880B572822A5A400F3089D /* MAD_MeditationUITests.swift in Sources */,
 				3F880B592822A5A400F3089D /* MAD_MeditationUITestsLaunchTests.swift in Sources */,
 			);
@@ -441,11 +480,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MAD Meditation/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MAD Meditation";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +496,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -468,11 +509,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MAD Meditation/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MAD Meditation";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +525,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -618,6 +661,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F880B6C2822AE8500F3089D /* XCRemoteSwiftPackageReference "swiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/swiftyJSON/swiftyJSON/";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3F880B6F2822AE9700F3089D /* XCRemoteSwiftPackageReference "alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/alamofire/alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F880B6D2822AE8500F3089D /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F880B6C2822AE8500F3089D /* XCRemoteSwiftPackageReference "swiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		3F880B702822AE9700F3089D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F880B6F2822AE9700F3089D /* XCRemoteSwiftPackageReference "alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3F880B2A2822A5A300F3089D /* Project object */;
 }
